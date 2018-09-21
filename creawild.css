@@ -1,0 +1,676 @@
+@font-face {
+    font-family: 'Ailerons';
+    src: url('Ailerons-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('Ailerons-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ------------------------------- Début CSS général ------------------------------ */
+body {
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: O !important;
+}
+
+#container-accueil {
+    padding: 0 !important;
+    min-width : 100% ;
+    max-width : 100%;
+}
+
+#container-accueil-mobile {
+    padding: 0 !important;
+    min-width : 100% ;
+    max-width : 100%;
+}
+
+#container-titre{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color : orange;
+    font-family: 'Ailerons';
+}
+
+#gros_titre{
+    font-size: 3em;
+    font-stretch: ultra-expanded;
+}
+
+.titre {
+    color : orange;
+    font-family: 'Ailerons';
+    padding-bottom: 30px;
+    padding-top:40px;
+    
+}
+
+.image-cerf{
+    width: 80%;
+    margin: 30px auto 30px auto;
+}
+
+#titre_wildx {
+    color : black;
+}
+
+
+.ancre-sections {
+    margin-bottom : 80px;
+}
+
+/* ------ Fin CSS général ----- */
+
+/* ----- Début CSS navbar + accueil ----- */
+.rounded-polygon{
+    width: 120px;
+    margin-top: 75px;
+    position: relative;
+    z-index: 2;
+}
+
+.pc{
+    font-size: 1.3em;
+    font-family: 'Ailerons';
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.mobile{
+    font-size: 1.3em;
+    font-family: 'Ailerons';
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.texte-menu-navbar {
+    font-size : 1em;
+}
+
+.navbar-light .navbar-toggler{
+    color:black;
+}
+
+.nav-fixe {
+    position : fixed !important;
+    z-index: 1000;
+}
+
+#photo_accueil-fluid{
+    max-width: 100%;
+    height: auto;
+    min-width : 100%;
+    margin-top: 80px;
+}
+
+#photo_accueil-tel{
+    min-width:100%;
+    max-width: 100%;
+    margin-top : 60px;
+}
+
+.langues{
+    position: absolute;
+    z-index: 100;
+}
+
+#dropdown-langue {
+    margin-top : 80px;
+}
+
+#btn-langue.btn.focus, #btn-langue.btn:focus {
+    box-shadow: transparent;
+    outline: orange;
+}
+
+
+#btn-langue.btn :hover {
+    background-color: transparent !important;
+    color : hsl(35, 100%, 61%);
+}
+
+#btn-langue a:focus, #btn-langue a:active {
+    background-color: transparent !important;
+    border: none;
+    box-shadow: transparent;
+    color: hsl(35, 100%, 61%);
+}
+
+.nav-link{
+    color:#3e4142;
+}
+
+.nav-link:hover {
+    color: hsl(35, 100%, 61%);
+}
+
+.drapeau {
+    padding: 0px;
+    width: 40px ;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+#dropdownMenuButton {
+    margin-bottom : 3px;
+    background-color : transparent !important;
+}
+.btn, .dropdown-menu {
+    border: none;
+}
+
+
+#dropdown-langue-items a, #btn-langue a {
+    width: 64px !important ;
+    padding-left :0 ;
+    padding-right: 0;
+    min-width: 10px !important;
+}
+
+#dropdown-langue-items a {
+    padding-top : 5px;
+    padding-bottom : 5px;
+}
+
+
+#lienDrapeauA, #lienDrapeauB, #lienDrapeauC, #lienDrapeauC {
+    margin-left : 0 !important ;
+    margin-right : 0 !important ;
+    padding: 20px, auto, 20px, auto ;
+}
+
+a#lienDrapeauA.dropdown-item.item-langue, a#lienDrapeauB.dropdown-item.item-langue, a#lienDrapeauC.dropdown-item.item-langue, a#lienDrapeauD.dropdown-item.item-langue {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+a#lienDrapeauA.dropdown-item.item-langue:hover, a#lienDrapeauB.dropdown-item.item-langue:hover, a#lienDrapeauC.dropdown-item.item-langue:hover, a#lienDrapeauD.dropdown-item.item-langue:hover {
+    background-color : transparent !important;
+}
+
+.hoverDrapeau:hover {
+    background-color : transparent !important;
+}
+
+div#dropdown-langue-items.dropdown-menu.show {
+    max-width: 64px !important;
+    min-width : 20px !important;
+    padding : 0 ;
+    margin-left: 0 ;
+    margin-right: 0;
+    margin-top : 10px;
+    text-align: center !important;
+    
+}
+
+
+.drop-langue, .drop-menu {
+    position : absolute ;
+}
+/* ----- Fin ----- */
+
+
+/* ----- Section Pourquoi ? ----- */
+
+#section-pourquoi {
+    background-color: #f0efef;
+    padding-bottom : 30px;
+}
+
+#image-femme-cerf {
+    margin-bottom : 50px;
+    width: 50%;
+}
+
+/* ----- Fin ----- */
+
+
+/* ----- CSS caractéristiques ----- */
+
+.cont_car {
+
+    background-color: #f0efef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+     
+}
+
+.icon_c {
+    max-width: 70px;
+    max-height: 70px; 
+    background-color: #f0efef;}
+
+.row_carac {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   
+}
+
+
+.carac {
+    color: #e28057;
+    text-align: center;
+}
+.lang {
+    font-size: 0.8em;
+}
+
+#liste-langues-icone {
+    font-size : 0.6em ;
+    padding: 0;
+    margin : 0 auto 0 auto;
+    line-height: 1.2em;
+
+}
+#titre-langues-icone {
+    line-height: 1.2em;
+}
+
+/* ----- fin CSS caractéristiques ----- */
+
+
+
+
+
+/* ----- début CSS galerie ----- */
+#section-galerie {
+    background-color: #f0efef;
+    padding-top: 20px;
+    padding-bottom: 0.5px;
+}
+
+.galerie {
+    margin-bottom: 50px;
+    margin-top : 25px;
+}
+
+#cerf1, #cerf2, #cerf3, #cerf4, #cerf5, #cerf6{
+    width: 80%;
+    height: 80%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ 
+.myImg:hover{
+    opacity: 0.7;
+}
+
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     padding-top: 100px;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0,0.9);
+ }
+ 
+ .modal-content {
+     margin: auto;
+     display: block;
+     max-width: 90%;
+     max-height: 95%;
+ }
+
+#container-modal-galerie {
+    margin-top : 100px;
+}
+
+ #caption {
+     margin: auto;
+     display: block;
+     width: 80%;
+     max-width: 700px;
+     text-align: center;
+     color: #ccc;
+     padding: 10px 0;
+     height: 150px;
+ }
+ 
+ .modal-content, #caption { 
+     animation-name: zoom;
+     animation-duration: 0.6s;
+ }
+ 
+ @keyframes zoom {
+     from {transform:scale(0)} 
+     to {transform:scale(1)}
+ }
+ 
+ .close {
+     position: absolute;
+     top: 15px;
+     right: 35px;
+     color: #f1f1f1;
+     font-size: 40px;
+     font-weight: bold;
+     transition: 0.3s;
+ }
+ 
+ .close:hover, .close:focus {
+     color: #bbb;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .galerie {
+     margin-bottom: 50px;
+ }
+
+/* ----- fin CSS galerie -----*/
+
+/* ----- Début CSS dropdown ----- */
+
+.titre_h2{
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.dropdown{
+    padding-bottom: 3%;
+}
+
+    /* ----- Fin CSS dropdown ----- */
+
+/* --- Fin section Caractéristiques --- */
+
+
+/* --- Début section Précommande --- */
+
+    /* ----- Début CSS formulaire -----*/
+
+form {
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+
+    /* ----- Fin CSS formulaire ----- */
+
+
+#bouton-précommande {
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+#bouton-précommande:hover{
+    color: hsl(35, 100%, 61%);
+}
+
+/* --- Fin section précommande --- */
+
+
+/* --- Début section Equipe wildX --- */
+
+.imgTeam
+{
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+#equipe {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.divequipe {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.membre-equipe {
+    margin-top : 30px;
+    margin-bottom : 30px;
+}
+
+/* ----- Fin section équipe ----- */
+
+
+/* ----- Début CSS footer ----- */
+footer
+{
+    background-color: #35383a;
+    padding: 0px;
+    width : 100%;
+    height : 130px;
+}
+
+.footext{
+    font-size: 0.8em !important;
+    margin-top: 40px;
+    padding: 0;
+}
+
+
+footer a
+{
+    color : white;
+}
+
+footer a:hover
+{
+    color : black;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    padding: 0;
+}
+/* ----- Fin CSS footer ----- */
+
+/* ----- Début CSS bouton retour ----- */
+#top-button {    
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 35px;
+    display: none;
+    position: fixed;
+    bottom: 0.3rem;
+    right: 0.3rem;
+    z-index: 300;
+    cursor: pointer;
+  }
+  #lien-top-button :hover, #top-button:hover {
+    opacity: 0.5;
+}
+/* ----- Fin CSS bouton retour ----- */
+
+
+/* ---------------------------------------- DEBUT MEDIA QUERIES ---------------------------------------- */
+
+@media screen and (max-width: 400px){
+        
+        body {
+            font-size: 1.2em;
+            padding: 0;
+            margin: 0;
+        }
+
+        .icon_c {
+            max-width: 40px;
+            max-height: 40px; 
+        }
+        .container {
+            font-size: 0.8em;
+        }
+        .icon {
+            padding-top: 30px;
+            padding-bottom: 10px;    
+        }
+        .carac {
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .lang {
+            font-size: 0.9em
+        }
+
+        .titre {
+            font-size : 1.6em;
+        }
+
+        .imgGalerie
+        {
+            width: 250px;
+        }
+        
+        .imgTeam
+        {
+            width: 140px;
+        }
+
+        h1
+        {
+            font-size: 1.2em;
+        }
+
+        h4
+        {
+            font-size: 1.1em;
+        }
+        
+        .titre {
+            font-size : 1.6em;
+        }
+        
+        .vignette
+        {
+            font-size: 0.9em;
+        }
+
+        .rounded-polygon {
+            display: none;
+        }
+        .pc{
+            display: none;
+        }
+        .logobar{
+            width: 50px;
+        }
+        .drapeau{
+            width: 20px;
+        }
+    
+        #dropdown-langue-items a, #btn-langue a {
+            width: 44px !important ;
+        }
+
+        #photo_accueil-fluid{
+            display: none;
+        }
+        #bouton-burger {
+            z-index: 1000;
+        }
+        
+        
+    }
+
+    
+    @media screen and (max-width: 992px) and (min-width: 400px) {
+
+        body {
+            font-size: 1.2em;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .rounded-polygon {
+            display: none;
+        }
+        .pc{
+            display: none;
+        }
+        .logobar{
+            width: 50px;
+        }
+        .drapeau{
+            width: 20px;
+        }
+    
+        #dropdown-langue-items a, #btn-langue a {
+            width: 44px !important ;
+        }
+
+        #photo_accueil-fluid{
+            display: none;
+        }
+
+        
+       
+    }
+
+
+
+    @media screen and (min-width: 992px) {
+        .navbar {
+            height:80px;
+        }
+        .navbar-brand{
+            display: none;
+        }
+        .mobile{
+            display: none;
+        }
+        .logobar{
+            display: none;
+        }
+
+        #photo_accueil-tel{
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1155px) and (min-width: 992px) {
+        .texte-menu-navbar {
+            font-size : 0.7em;
+        }
+        
+    }
+
+    @media screen and (max-width: 1345px) and (min-width: 1155px) {
+        .texte-menu-navbar {
+            font-size : 0.8em;
+        }
+       
+    }

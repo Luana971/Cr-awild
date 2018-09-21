@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wild-X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="creawild.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="haut_page"></div>
+    <div class="container-fluid navbar-fixed-top nav-fixe">
+        <div class="row">
+            <div class="col pc">
+                <nav class="barrenav navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">Wild X</a>
+                    <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                        <ul class="navbar-nav ml-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link texte-menu-navbar" href="#container-accueil">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ml-4 texte-menu-navbar" href="#comment">Comment ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ml-4 mr-3 texte-menu-navbar" href="#pourquoi">Pourquoi ?</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+                        <a class="mx-auto" href="#">
+                            <img src="https://res.cloudinary.com/dtpfajz6i/image/upload/c_scale,h_120,w_120/v1537347043/LogowildX.png"
+                                class="rounded-polygon">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                        <ul class="navbar-nav mr-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link ml-3 mr-4 texte-menu-navbar" href="#galerie">Galerie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-4 texte-menu-navbar" href="#caractéristiques">Caractéristiques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link texte-menu-navbar" href="#précommande">Précommande</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="mobile container-fluid">
+                <nav class="navbar navbar-light navbar-expand-lg row no-gutters">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://res.cloudinary.com/dtpfajz6i/image/upload/v1537347043/wildX.png" alt="logobar" class="logobar">
+                    </a>
+                    <button class="navbar-toggler" id="bouton-burger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#container-accueil">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#comment">Comment ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#pourquoi">Pourquoi ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#galerie">Galerie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#caractéristiques">Caractéristiques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center" href="#précommande">Précommande</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" >
+        <div class="row langues">
+            <div class="dropdown col-2 offset-1" id="dropdown-langue">
+                <button class="btn dropdown-toggle bg-transparent" type="button" id="dropdownMenuButton btn-langue"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div id="btn-title">
+                        <a class="" href="#" id="lienDrapeauD">
+                        <img class="drapeau drapeau-active" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537364438/creawild/Drapeau_France.jpg"
+                                alt="FR"></a>
+                    </div>
+                </button>
+
+                <div class="dropdown-menu bg-transparent" id="dropdown-langue-items" aria-labelledby="dropdownMenuButton">
+                    <div class="hoverDrapeau">
+                        <a class="dropdown-item item-langue" id="lienDrapeauA" href="#"><img class="drapeau" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537364438/creawild/anglais.jpg"
+                                alt="EN" /></a>
+                    </div>
+                    <div class="hoverDrapeau">
+                        <a class="dropdown-item item-langue" id="lienDrapeauB" href="#"><img class="drapeau" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537364438/creawild/espagne.jpg"
+                                alt="ES" /></a>
+                    </div>
+                    <div class="hoverDrapeau">
+                        <a class="dropdown-item item-langue" id="lienDrapeauC" href="#"><img class="drapeau" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537364438/creawild/japon.jpg"
+                                alt="JP" /></a>
+                    </div>
+                    <div id="divVideDrapeau">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id = "container-accueil">
+        <img src="https://res.cloudinary.com/dsql7dxni/image/upload/v1537454545/projet%20Wild%20X/Fond_Accueil_noBackg.jpg"
+        id="photo_accueil-fluid" alt="Responsive image">  
+    </div>
+
+    <div class="container-fluid cont_mobile" id = "container-accueil-mobile">
+        <img src="https://res.cloudinary.com/dsql7dxni/image/upload/v1537454685/projet%20Wild%20X/Fond_Accueil_mobile.jpg" id="photo_accueil-tel" alt="image tel"/>      
+    </div>
+
+    <div id="container-titre" class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 id="gros_titre">Cerf-Tête</h1>
+            </div>
+        </div>
+        <div class = "row ancre-sections" id="pourquoi">
+            
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id = "section-pourquoi">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-justify text-center galerie titre">Pourquoi le Cerf-Tête ?</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p class="text-justify text-center">Le but de ce produit exclusif et révolutionnaire est de
+                    pouvoir communiquer avec les cerfs.</p>
+            </div>
+        </div>
+
+        <div class="row marche">
+            <div class="col rounded mx-auto d-block">
+                <img class="image-cerf rounded mx-auto d-block" id ="image-femme-cerf" src="https://res.cloudinary.com/dzgbfpr45/image/upload/v1537113815/projet1%20-%20wildX/shutterstock_307943279.png"
+                    alt="femme+cerf" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p class="text-justify text-center">Le cerf est le roi de la forêt, si on lui parle on accède donc à
+                    tous les autres animaux !
+                    Le but est d'améliorer la compréhension<br/>
+                    et donc les échanges avec les animaux qui nous entourent.
+                    Ainsi, nous pourrons mieux protéger notre environnement et nos ressources.</p>
+            </div>
+        </div>
+        <div class = "row ancre-sections" id="comment">
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-justify text-center galerie titre">Comment ça marche ?</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p class="text-justify text-center">Lecture des ondes cérébrales, transmissions via les "bois" (qui
+                    sont des antennes).
+                    Une IA traduit ces ondes en langage pour que le cerf comprenne.
+                    De plus, les ondes du cerf sont détectées et traduites pour être comprises par le porteur du Wild
+                    Cerf-tête.<br/>
+                    4 brevets ont été déposés !</p>
+            </div>
+        </div>
+
+        <div class="row marche">
+            <div class="col rounded mx-auto d-block">
+                <img class="image-cerf rounded mx-auto d-block" src="wildX_6.png" alt="femme+cerf" />
+            </div>
+        </div>
+
+        <div class = "row ancre-sections" id="caractéristiques">
+        </div>
+
+    </div>
+
+        
+    <div class="container-fluid cont_car">
+            
+            <div class="row">
+                <div class="col">
+                    <h1 class="titre text-justify text-center galerie">Caractéristiques</h1>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-4 col-6 icon text-center">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537528950/bluetooth-big-sign.png" alt="Icone Bluetooth"></a>
+                    <br /><br />
+                    <p>Casque Bluetooth</p>
+                </div>
+                <div class="col-md-4 col-6 icon text-center">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/dsql7dxni/image/upload/v1537453707/projet%20Wild%20X/icons/device-headphone-music-mp3-outline-stroke-512.png" alt="Icone Ecouteurs"></a>
+                    <br /><br />
+                    <p>Ecouteurs</p>
+                </div>
+                <div class="col-md-4 col-6 icon text-center">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/dsql7dxni/image/upload/v1537453707/projet%20Wild%20X/icons/charge_battery-512.png" alt="Icone batterie"></a>
+                    <br /><br />
+                    <p>Batterie Lithium</p>
+                </div>
+                <div class="col-md-4 offset-md-2 col-6 icon text-center">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537528588/time-passing.png" alt="Icone chronomètre"></a>
+                    <br /><br />
+                    <p>Autonomie 2H</p>
+                </div>
+                <div class="col-md-4 col-6 icon text-center">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent img-fluid" id="icone-portée" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537527387/wireless-internet.png" alt="Icone portée"></a>
+                    <br /><br />
+                    <p>Portée 50 mètres</p>
+                </div>
+                <div class="col-md-4 col-6 icon text-center" id = "div-icone-CE">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537528951/european-conformity.png" alt="Icone CE certificate"></a>
+                    <br /><br />
+                    <p>Certifié conforme E.U</p>
+                </div>
+                <div class="col-md-4 col-6 icon text-center" id = "div-icone-multilingue">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/dsql7dxni/image/upload/v1537453707/projet%20Wild%20X/icons/Translate-512.png" alt="Icone multilingue"></a>
+                    <br /><br />
+                    <p class="text-justify text-center" id= "titre-langues-icone">Disponible en 4 langues<br/>
+                    <span id = "liste-langues-icone">Français - Anglais<br/>Espagnol - Japonais</span>
+                    </p>
+                </div>
+                
+                <div class="col-md-4 col-6 icon text-center">
+                    <a href="https://goopics.net/i/krb5e"><img class="icon_c bg-transparent" src="https://res.cloudinary.com/dsql7dxni/image/upload/v1537453707/projet%20Wild%20X/icons/android-IOS.png" alt="Icone Android-iOS"></a>
+                    <br /><br />
+                    <p>Compatible Android & IOS</p>
+                </div>
+                
+                
+            </div>
+
+        <div class="row dropdown">
+                
+            <button class="col-md-6 rounded mx-auto d-block btn btn-secondary dropdown-toggle w-100 " type="button" id="dropdownMenu2"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-flip="false">
+                Caractéristiques détaillées
+            </button>
+            <div class="col-md-6 dropdown-menu w-100 bg-transparent" aria-labelledby="dropdownMenu2">
+                <ul class="list-group text-center">
+                    <li class="list-group-item bg-secondary text-white">
+                        <strong>Matériel</strong></li>
+                    <li class="list-group-item text-left">
+                        <strong>CPU</strong>: Mediatek MT8321, Quad-Core, ARM-A53 @1.3GHz<br>
+                        <strong> GPU </strong>: ARM Mali-T400<br>
+                        <strong>RAM </strong>: 1GB, LPDDR3<br>
+                        <strong>Internal Storage</strong> : 16/32 GB<br>
+                        <strong>Operating System </strong>: Android 7.0 « Nougat »<br>
+                        <strong>Loudspeakers</strong> : Yes<br>
+                        <strong>Audio out </strong>: Mini-jack 3.5mm<br>
+                        <strong>Microphone </strong>: Yes<br>
+                        <strong>Light and Proximity </strong>: Yes<br>
+                        <strong>USB OTG </strong>: Yes<br>
+                        <strong>USB </strong>: Micro USB<br>
+                        <strong>G sensor / Compass /Gyro</strong> : Yes / No / No<br></li>
+                    <li class="list-group-item bg-secondary text-white"><strong>Alimentation</strong></li>
+                    <li class="list-group-item text-left">
+                        <strong>Battery Size </strong>: 5000 mAh<br>
+                        <strong>Battery Type </strong>: Li-Ion<br>
+                        <strong>Battery Weight</strong> : 93g<br>
+                        <strong>Battery Life</strong> : Video Playback : 405 min<br>
+                        <strong>Charging Adaptor</strong> : 5V/2A, Micro USB 2.0 Fixed EU<br></li>
+                    <li class="list-group-item bg-secondary text-white"><strong>Inclus dans la boîte</strong></li>
+                    <li class="list-group-item text-left">
+                        USB Charger<br>
+                        USB Cable<br>
+                        Quick Start Guide<br>
+                        Warranty Booklet<br></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "row ancre-sections" id="précommande">
+            
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-justify text-center galerie titre">Précommandez le Cerf-Tête</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" required class="form-control" id="name" placeholder="Nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="first_name">Prénom</label>
+                        <input type="text" required class="form-control" id="first_name" placeholder="Prenom">
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Téléphone</label>
+                        <input type="tel" pattern="[-+]?[0-9]*[.,]?[0-9]+" required class="form-control" id="telephone" placeholder="0603020104">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">E-mail</label>
+                        <input type="email" required class="form-control" id="mail" placeholder="nom@adresse.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="Code postal">Code postal</label>
+                        <input type="tel" required class="form-control" id="code_postal" placeholder="ex : 33000">
+                    </div>
+                    <div class="form-group">
+                        <label for="ville">Ville</label>
+                        <input type="text" required class="form-control" id="ville" placeholder="ex : Bordeaux">
+                    </div>
+                    <div class="form-group">
+                        <label for="adresse_1">Adresse</label>
+                            <input type="text" required class="form-control" id="adresse_1" placeholder="ex : 12 place de la République">
+                    </div>
+                    <div class="form-group">
+                        <label for="adresse_2">Complément d'adresse</label>
+                        <input type="text" required class="form-control" id="adresse_2" placeholder="Bâtiment, digicode, hébergeur...">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col">
+                <button type="button" class="btn btn-secondary rounded mx-auto d-block" id = "bouton-précommande">Précommandez</button>
+            </div>
+        </div>
+        <div class = "row ancre-sections" id="galerie">
+            
+        </div>
+    </div>
+
+    <div class="container-fluid" id = "section-galerie">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-justify text-center galerie titre">Galerie</h1>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+           
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close" id = "container-modal-galerie" >X</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="cerf">
+            </div>
+        </div>
+
+        <div class="row cerfs">
+            <div class="col-xs-12 col-md-6 images-gallery">
+                <img id="cerf1" src="wildX_1.png" class="rounded mx-auto d-block myImg img-responsive">
+            </div>
+
+            <div class="col-xs-12 col-md-6 images-gallery">
+                <img id="cerf2" src="wildX_2.png" class="rounded mx-auto d-block myImg img-responsive">
+            </div>
+
+            <div class="col-xs-12 col-md-6 images-gallery">
+                <img id="cerf3" src="wildX_3.png" class="rounded mx-auto d-block myImg img-responsive">
+            </div>
+
+            <div class="col-xs-12 col-md-6 images-gallery">
+                <img id="cerf4" src="wildX_6.png" class="rounded mx-auto d-block myImg img-responsive">
+            </div>
+
+            <div class="col-xs-12 col-md-6 images-gallery">
+                <img id="cerf5" src="wildX_5.png" class="rounded mx-auto d-block myImg img-responsive">
+            </div>
+
+            <div class="col-xs-12 col-md-6 images-gallery">
+                <img id="cerf6" src="wildX_4.jpg" class="rounded mx-auto d-block myImg img-responsive">
+            </div>
+        </div>
+        <div class = "row ancre-sections" id="equipe-wildX">
+            
+        </div>
+    </div>
+
+    <div class="container divequipe">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-justify text-center titre" id="equipe"><span id=titre_wildx>WILD</span>X</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p class="text-justify text-center">
+                    Son PDG, Élan Musk, souhaite révolutionner le rapport entre les
+                    hommes et les animaux, à l'aide de toute
+                    la technologie moderne que l'équipe R&D de Wild X développe.
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center membre-equipe">
+            <div class="col-4">
+                <img src="https://res.cloudinary.com/dzgbfpr45/image/upload/v1537113556/projet1%20-%20wildX/Elon_360px.png"
+                    class="rounded mx-auto d-block img-fluid imgTeam">
+            </div>
+            <div class="col-4 align-self-center">
+                <h4 class="text-center">Elan Musk </h4>
+                <p class="text-center vignette">PDG</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center membre-equipe">
+            <div class="col-4">
+                <img src="https://res.cloudinary.com/dzgbfpr45/image/upload/v1537113555/projet1%20-%20wildX/Elisa_360px.png"
+                    class="rounded mx-auto d-block img-fluid imgTeam">
+            </div>
+            <div class="col-4 align-self-center">
+                <h4 class="text-center">Elisa Musk </h4>
+                <p class="text-center vignette">R&D</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center membre-equipe">
+            <div class="col-4">
+                <img src="https://res.cloudinary.com/dzgbfpr45/image/upload/v1537113555/projet1%20-%20wildX/Aurelien-360px.png"
+                    class="rounded mx-auto d-block img-fluid imgTeam">
+            </div>
+            <div class="col-4 align-self-center">
+                <h4 class="text-center">Aurélien Musk </h4>
+                <p class="text-center vignette">R&D</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid cont_footer" id="footer-id">
+        
+        <div class="row">
+            <div class="col-4 text-center footext rounded mx-auto d-block" id="footext-gauche">
+                <a href="mentions légales">Mentions légales</a>
+            </div>
+            <div class="col-4 logo">
+                <img src="logoWildX.png" class="rounded mx-auto d-block img-fluid logo" />
+            </div>
+            <div class="col-4 text-center footext rounded mx-auto d-block" id="footext-droite">
+                <a href="mentions légales">Contactez-nous</a>
+            </div>
+        </div>
+    </footer>
+
+    <a id="lien-top-button" href="#haut_page"><img id="top-button" alt="Back to Top icon" src="https://res.cloudinary.com/ddcgkurlp/image/upload/v1537463446/creawild/icons8-sort-up-50.png"></a>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="creawild.js"></script>
+
+
+
+</body>
+
+</html>
